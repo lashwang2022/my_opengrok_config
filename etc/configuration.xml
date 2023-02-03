@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.17" class="java.beans.XMLDecoder">
+ <object class="org.opengrok.indexer.configuration.Configuration" id="Configuration0">
+  <void property="allowedSymlinks">
+   <void method="add">
+    <string>/opt/opengrok/src/RK_Android_T</string>
+   </void>
+   <void method="add">
+    <string>/opt/opengrok/src/gxv34x0</string>
+   </void>
+   <void method="add">
+    <string>/opt/opengrok/src/Mercury_Android_R</string>
+   </void>
+  </void>
+  <void property="ctags">
+   <string>/usr/local/bin/ctags</string>
+  </void>
+  <void property="dataRoot">
+   <string>/opt/opengrok/data</string>
+  </void>
+  <void property="historyEnabled">
+   <boolean>false</boolean>
+  </void>
+  <void id="IgnoredNames0" property="ignoredNames">
+   <void id="IgnoredDirs0" property="ignoredDirs">
+    <void property="items">
+     <void method="add">
+      <string>.repo</string>
+     </void>
+     <void method="add">
+      <string>pdk</string>
+     </void>
+     <void method="add">
+      <string>rockdev</string>
+     </void>
+     <void method="add">
+      <string>toolchain</string>
+     </void>
+     <void method="add">
+      <string>old_codebase</string>
+     </void>
+     <void method="add">
+      <string>autotest</string>
+     </void>
+     <void method="add">
+      <string>platform_testing</string>
+     </void>
+     <void method="add">
+      <string>cts</string>
+     </void>
+     <void method="add">
+      <string>prebuilts</string>
+     </void>
+     <void method="add">
+      <string>out</string>
+     </void>
+     <void method="add">
+      <string>.git</string>
+     </void>
+     <void method="add">
+      <string>.hg</string>
+     </void>
+     <void method="add">
+      <string>.bk</string>
+     </void>
+     <void method="add">
+      <string>.bzr</string>
+     </void>
+     <void method="add">
+      <string>.svn</string>
+     </void>
+     <void method="add">
+      <string>SCCS</string>
+     </void>
+     <void method="add">
+      <string>.razor</string>
+     </void>
+     <void method="add">
+      <string>RCS</string>
+     </void>
+     <void method="add">
+      <string>CVS</string>
+     </void>
+     <void method="add">
+      <string>CVSROOT</string>
+     </void>
+    </void>
+   </void>
+   <void id="IgnoredFiles0" property="ignoredFiles">
+    <void property="items">
+     <void method="add">
+      <string>.git</string>
+     </void>
+     <void method="add">
+      <string>.hgtags</string>
+     </void>
+     <void method="add">
+      <string>.hgignore</string>
+     </void>
+     <void method="add">
+      <string>.cvsignore</string>
+     </void>
+     <void method="add">
+      <string>.p4config</string>
+     </void>
+    </void>
+   </void>
+  </void>
+  <void property="printProgress">
+   <boolean>true</boolean>
+  </void>
+  <void property="projects">
+   <void method="put">
+    <string>gxv34x0</string>
+    <object class="org.opengrok.indexer.configuration.Project">
+     <void property="historyBasedReindex">
+      <boolean>true</boolean>
+     </void>
+     <void property="indexed">
+      <boolean>true</boolean>
+     </void>
+     <void property="name">
+      <string>gxv34x0</string>
+     </void>
+     <void property="path">
+      <string>/gxv34x0</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>RK_Android_T</string>
+    <object class="org.opengrok.indexer.configuration.Project">
+     <void property="historyBasedReindex">
+      <boolean>true</boolean>
+     </void>
+     <void property="indexed">
+      <boolean>true</boolean>
+     </void>
+     <void property="name">
+      <string>RK_Android_T</string>
+     </void>
+     <void property="path">
+      <string>/RK_Android_T</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>Mercury_Android_R</string>
+    <object class="org.opengrok.indexer.configuration.Project">
+     <void property="historyBasedReindex">
+      <boolean>true</boolean>
+     </void>
+     <void property="indexed">
+      <boolean>true</boolean>
+     </void>
+     <void property="name">
+      <string>Mercury_Android_R</string>
+     </void>
+     <void property="path">
+      <string>/Mercury_Android_R</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="projectsEnabled">
+   <boolean>true</boolean>
+  </void>
+  <void property="sourceRoot">
+   <string>/opt/opengrok/src</string>
+  </void>
+  <void id="SuggesterConfig0" property="suggesterConfig">
+   <void property="allowedFields">
+    <void method="clear"/>
+    <void method="add">
+     <string>defs</string>
+    </void>
+    <void method="add">
+     <string>path</string>
+    </void>
+    <void method="add">
+     <string>hist</string>
+    </void>
+    <void method="add">
+     <string>refs</string>
+    </void>
+    <void method="add">
+     <string>type</string>
+    </void>
+    <void method="add">
+     <string>full</string>
+    </void>
+   </void>
+  </void>
+  <void property="tagsEnabled">
+   <boolean>true</boolean>
+  </void>
+ </object>
+</java>
