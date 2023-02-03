@@ -1,0 +1,13 @@
+d:out
+d:prebuilts
+d:cts
+d:platform_testing
+d:autotest
+d:old_codebase
+d:toolchain
+d:rockdev
+d:pdk
+d:.repo
+
+
+
