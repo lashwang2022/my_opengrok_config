@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="11.0.17" class="java.beans.XMLDecoder">
+<java version="11.0.13" class="java.beans.XMLDecoder">
  <object class="org.opengrok.indexer.configuration.Configuration" id="Configuration0">
   <void property="allowedSymlinks">
    <void method="add">
     <string>/opt/opengrok/src/RK_Android_T</string>
+   </void>
+   <void method="add">
+    <string>/opt/opengrok/src/chromium_project</string>
+   </void>
+   <void method="add">
+    <string>/opt/opengrok/src/PCD</string>
+   </void>
+   <void method="add">
+    <string>/opt/opengrok/src/SoundBar_SDA845</string>
    </void>
    <void method="add">
     <string>/opt/opengrok/src/gxv34x0</string>
@@ -24,6 +33,18 @@
   <void id="IgnoredNames0" property="ignoredNames">
    <void id="IgnoredDirs0" property="ignoredDirs">
     <void property="items">
+     <void method="add">
+      <string>tests</string>
+     </void>
+     <void method="add">
+      <string>linux-kselftest</string>
+     </void>
+     <void method="add">
+      <string>puffin</string>
+     </void>
+     <void method="add">
+      <string>aadevtools</string>
+     </void>
      <void method="add">
       <string>.repo</string>
      </void>
@@ -89,6 +110,21 @@
    <void id="IgnoredFiles0" property="ignoredFiles">
     <void property="items">
      <void method="add">
+      <string>*.jar</string>
+     </void>
+     <void method="add">
+      <string>*.so</string>
+     </void>
+     <void method="add">
+      <string>*.o</string>
+     </void>
+     <void method="add">
+      <string>*.a</string>
+     </void>
+     <void method="add">
+      <string>*.js</string>
+     </void>
+     <void method="add">
       <string>.git</string>
      </void>
      <void method="add">
@@ -128,6 +164,23 @@
     </object>
    </void>
    <void method="put">
+    <string>PCD</string>
+    <object class="org.opengrok.indexer.configuration.Project">
+     <void property="historyBasedReindex">
+      <boolean>true</boolean>
+     </void>
+     <void property="indexed">
+      <boolean>true</boolean>
+     </void>
+     <void property="name">
+      <string>PCD</string>
+     </void>
+     <void property="path">
+      <string>/PCD</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
     <string>RK_Android_T</string>
     <object class="org.opengrok.indexer.configuration.Project">
      <void property="historyBasedReindex">
@@ -145,6 +198,40 @@
     </object>
    </void>
    <void method="put">
+    <string>chromium_project</string>
+    <object class="org.opengrok.indexer.configuration.Project">
+     <void property="historyBasedReindex">
+      <boolean>true</boolean>
+     </void>
+     <void property="indexed">
+      <boolean>true</boolean>
+     </void>
+     <void property="name">
+      <string>chromium_project</string>
+     </void>
+     <void property="path">
+      <string>/chromium_project</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>SoundBar_SDA845</string>
+    <object class="org.opengrok.indexer.configuration.Project">
+     <void property="historyBasedReindex">
+      <boolean>true</boolean>
+     </void>
+     <void property="indexed">
+      <boolean>true</boolean>
+     </void>
+     <void property="name">
+      <string>SoundBar_SDA845</string>
+     </void>
+     <void property="path">
+      <string>/SoundBar_SDA845</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
     <string>Mercury_Android_R</string>
     <object class="org.opengrok.indexer.configuration.Project">
      <void property="historyBasedReindex">
@@ -158,6 +245,23 @@
      </void>
      <void property="path">
       <string>/Mercury_Android_R</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>personal</string>
+    <object class="org.opengrok.indexer.configuration.Project">
+     <void property="historyBasedReindex">
+      <boolean>true</boolean>
+     </void>
+     <void property="indexed">
+      <boolean>true</boolean>
+     </void>
+     <void property="name">
+      <string>personal</string>
+     </void>
+     <void property="path">
+      <string>/personal</string>
      </void>
     </object>
    </void>
@@ -190,9 +294,6 @@
      <string>full</string>
     </void>
    </void>
-  </void>
-  <void property="tagsEnabled">
-   <boolean>true</boolean>
   </void>
  </object>
 </java>

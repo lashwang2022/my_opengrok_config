@@ -8,6 +8,18 @@ d:toolchain
 d:rockdev
 d:pdk
 d:.repo
-
-
+d:aadevtools
+f:*.js
+d:puffin
+d:linux-kselftest
+f:*.a
+f:*.o
+f:*.so
+d:tests
+f:*.jar
+d:testdata
+d:test
+d:python
+f:*.html
+d:tensorflow
 
