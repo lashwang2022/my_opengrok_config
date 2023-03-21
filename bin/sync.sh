@@ -26,3 +26,6 @@ $ignore_option "
 
 $cmd
 
+sudo rm -rf /opt/tomcat/apache-tomcat-10.0.27/temp/opengrok_suggester*
+
+
