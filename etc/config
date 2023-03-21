@@ -22,4 +22,8 @@ d:test
 d:python
 f:*.html
 d:tensorflow
-
+d:swiftshader
+d:llvm
+f:*.img
+d:robotests
+d:androidTest
