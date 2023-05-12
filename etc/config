@@ -27,3 +27,5 @@ d:llvm
 f:*.img
 d:robotests
 d:androidTest
+f:*.d
+f:*.class
