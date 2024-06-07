@@ -1,13 +1,12 @@
 d:out
+d:out_user
 d:prebuilts
-d:cts
-d:platform_testing
 d:autotest
 d:old_codebase
 d:toolchain
 d:rockdev
 d:pdk
-d:.repo
+d:project-objects
 d:aadevtools
 f:*.js
 d:puffin
@@ -29,3 +28,11 @@ d:robotests
 d:androidTest
 f:*.d
 f:*.class
+d:connac1x
+d:connac2x
+d:connac3x
+d:trout
+d:fmradio
+d:out_hal
+d:out_krn
+

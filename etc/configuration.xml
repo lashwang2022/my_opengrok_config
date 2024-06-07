@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="11.0.13" class="java.beans.XMLDecoder">
+<java version="11.0.19" class="java.beans.XMLDecoder">
  <object class="org.opengrok.indexer.configuration.Configuration" id="Configuration0">
   <void property="allowedSymlinks">
    <void method="add">
-    <string>/opt/opengrok/src/RK_Android_T</string>
+    <string>/opt/opengrok/src/WP856_13</string>
    </void>
    <void method="add">
-    <string>/opt/opengrok/src/chromium_project</string>
+    <string>/opt/opengrok/src/WP856_12</string>
    </void>
    <void method="add">
-    <string>/opt/opengrok/src/PCD</string>
+    <string>/opt/opengrok/src/MercuryMini_Android_R</string>
    </void>
    <void method="add">
-    <string>/opt/opengrok/src/SoundBar_SDA845</string>
+    <string>/opt/opengrok/src/adclear</string>
    </void>
    <void method="add">
-    <string>/opt/opengrok/src/gxv34x0</string>
+    <string>/opt/opengrok/src/android-kernel</string>
    </void>
    <void method="add">
-    <string>/opt/opengrok/src/Mercury_Android_R</string>
+    <string>/opt/opengrok/src/GSC3575</string>
+   </void>
+   <void method="add">
+    <string>/opt/opengrok/src/cts</string>
    </void>
   </void>
   <void property="ctags">
@@ -34,6 +37,51 @@
    <void id="IgnoredDirs0" property="ignoredDirs">
     <void property="items">
      <void method="add">
+      <string>out_krn</string>
+     </void>
+     <void method="add">
+      <string>out_hal</string>
+     </void>
+     <void method="add">
+      <string>fmradio</string>
+     </void>
+     <void method="add">
+      <string>trout</string>
+     </void>
+     <void method="add">
+      <string>connac3x</string>
+     </void>
+     <void method="add">
+      <string>connac2x</string>
+     </void>
+     <void method="add">
+      <string>connac1x</string>
+     </void>
+     <void method="add">
+      <string>androidTest</string>
+     </void>
+     <void method="add">
+      <string>robotests</string>
+     </void>
+     <void method="add">
+      <string>llvm</string>
+     </void>
+     <void method="add">
+      <string>swiftshader</string>
+     </void>
+     <void method="add">
+      <string>tensorflow</string>
+     </void>
+     <void method="add">
+      <string>python</string>
+     </void>
+     <void method="add">
+      <string>test</string>
+     </void>
+     <void method="add">
+      <string>testdata</string>
+     </void>
+     <void method="add">
       <string>tests</string>
      </void>
      <void method="add">
@@ -46,7 +94,7 @@
       <string>aadevtools</string>
      </void>
      <void method="add">
-      <string>.repo</string>
+      <string>project-objects</string>
      </void>
      <void method="add">
       <string>pdk</string>
@@ -64,13 +112,10 @@
       <string>autotest</string>
      </void>
      <void method="add">
-      <string>platform_testing</string>
-     </void>
-     <void method="add">
-      <string>cts</string>
-     </void>
-     <void method="add">
       <string>prebuilts</string>
+     </void>
+     <void method="add">
+      <string>out_user</string>
      </void>
      <void method="add">
       <string>out</string>
@@ -80,6 +125,9 @@
      </void>
      <void method="add">
       <string>.hg</string>
+     </void>
+     <void method="add">
+      <string>.repo</string>
      </void>
      <void method="add">
       <string>.bk</string>
@@ -109,6 +157,18 @@
    </void>
    <void id="IgnoredFiles0" property="ignoredFiles">
     <void property="items">
+     <void method="add">
+      <string>*.class</string>
+     </void>
+     <void method="add">
+      <string>*.d</string>
+     </void>
+     <void method="add">
+      <string>*.img</string>
+     </void>
+     <void method="add">
+      <string>*.html</string>
+     </void>
      <void method="add">
       <string>*.jar</string>
      </void>
@@ -147,7 +207,7 @@
   </void>
   <void property="projects">
    <void method="put">
-    <string>gxv34x0</string>
+    <string>MercuryMini_Android_R</string>
     <object class="org.opengrok.indexer.configuration.Project">
      <void property="historyBasedReindex">
       <boolean>true</boolean>
@@ -156,15 +216,15 @@
       <boolean>true</boolean>
      </void>
      <void property="name">
-      <string>gxv34x0</string>
+      <string>MercuryMini_Android_R</string>
      </void>
      <void property="path">
-      <string>/gxv34x0</string>
+      <string>/MercuryMini_Android_R</string>
      </void>
     </object>
    </void>
    <void method="put">
-    <string>PCD</string>
+    <string>cts</string>
     <object class="org.opengrok.indexer.configuration.Project">
      <void property="historyBasedReindex">
       <boolean>true</boolean>
@@ -173,15 +233,15 @@
       <boolean>true</boolean>
      </void>
      <void property="name">
-      <string>PCD</string>
+      <string>cts</string>
      </void>
      <void property="path">
-      <string>/PCD</string>
+      <string>/cts</string>
      </void>
     </object>
    </void>
    <void method="put">
-    <string>RK_Android_T</string>
+    <string>GSC3575</string>
     <object class="org.opengrok.indexer.configuration.Project">
      <void property="historyBasedReindex">
       <boolean>true</boolean>
@@ -190,15 +250,15 @@
       <boolean>true</boolean>
      </void>
      <void property="name">
-      <string>RK_Android_T</string>
+      <string>GSC3575</string>
      </void>
      <void property="path">
-      <string>/RK_Android_T</string>
+      <string>/GSC3575</string>
      </void>
     </object>
    </void>
    <void method="put">
-    <string>chromium_project</string>
+    <string>openssl-1.1.1</string>
     <object class="org.opengrok.indexer.configuration.Project">
      <void property="historyBasedReindex">
       <boolean>true</boolean>
@@ -207,15 +267,15 @@
       <boolean>true</boolean>
      </void>
      <void property="name">
-      <string>chromium_project</string>
+      <string>openssl-1.1.1</string>
      </void>
      <void property="path">
-      <string>/chromium_project</string>
+      <string>/openssl-1.1.1</string>
      </void>
     </object>
    </void>
    <void method="put">
-    <string>SoundBar_SDA845</string>
+    <string>openssl-1.0.2</string>
     <object class="org.opengrok.indexer.configuration.Project">
      <void property="historyBasedReindex">
       <boolean>true</boolean>
@@ -224,15 +284,15 @@
       <boolean>true</boolean>
      </void>
      <void property="name">
-      <string>SoundBar_SDA845</string>
+      <string>openssl-1.0.2</string>
      </void>
      <void property="path">
-      <string>/SoundBar_SDA845</string>
+      <string>/openssl-1.0.2</string>
      </void>
     </object>
    </void>
    <void method="put">
-    <string>Mercury_Android_R</string>
+    <string>adclear</string>
     <object class="org.opengrok.indexer.configuration.Project">
      <void property="historyBasedReindex">
       <boolean>true</boolean>
@@ -241,15 +301,15 @@
       <boolean>true</boolean>
      </void>
      <void property="name">
-      <string>Mercury_Android_R</string>
+      <string>adclear</string>
      </void>
      <void property="path">
-      <string>/Mercury_Android_R</string>
+      <string>/adclear</string>
      </void>
     </object>
    </void>
    <void method="put">
-    <string>personal</string>
+    <string>WP856_12</string>
     <object class="org.opengrok.indexer.configuration.Project">
      <void property="historyBasedReindex">
       <boolean>true</boolean>
@@ -258,10 +318,61 @@
       <boolean>true</boolean>
      </void>
      <void property="name">
-      <string>personal</string>
+      <string>WP856_12</string>
      </void>
      <void property="path">
-      <string>/personal</string>
+      <string>/WP856_12</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>WP856_13</string>
+    <object class="org.opengrok.indexer.configuration.Project">
+     <void property="historyBasedReindex">
+      <boolean>true</boolean>
+     </void>
+     <void property="indexed">
+      <boolean>true</boolean>
+     </void>
+     <void property="name">
+      <string>WP856_13</string>
+     </void>
+     <void property="path">
+      <string>/WP856_13</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>android-kernel</string>
+    <object class="org.opengrok.indexer.configuration.Project">
+     <void property="historyBasedReindex">
+      <boolean>true</boolean>
+     </void>
+     <void property="indexed">
+      <boolean>true</boolean>
+     </void>
+     <void property="name">
+      <string>android-kernel</string>
+     </void>
+     <void property="path">
+      <string>/android-kernel</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>openssl-3.x</string>
+    <object class="org.opengrok.indexer.configuration.Project">
+     <void property="historyBasedReindex">
+      <boolean>true</boolean>
+     </void>
+     <void property="indexed">
+      <boolean>true</boolean>
+     </void>
+     <void property="name">
+      <string>openssl-3.x</string>
+     </void>
+     <void property="path">
+      <string>/openssl-3.x</string>
      </void>
     </object>
    </void>
